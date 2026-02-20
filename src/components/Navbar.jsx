@@ -35,11 +35,11 @@ const Navbar = () => {
         <Link to="/login" className="login-btn desktop-only">
           Login
         </Link>
-        <div className="navbar-toggle" onClick={toggleMenu}>
+        <button className="navbar-toggle" onClick={toggleMenu} aria-label="Toggle navigation" aria-expanded={isOpen}>
           <span className="bar"></span>
           <span className="bar"></span>
           <span className="bar"></span>
-        </div>
+        </button>
       </div>
     </nav>
   );
