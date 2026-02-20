@@ -63,7 +63,16 @@ ul {
   left: 0;
   width: 100%;
   z-index: 1000;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.scrolled {
+  background-color: rgba(11, 19, 43, 0.95);
+  /* Deep navy with some transparency */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .navbar-container {
@@ -194,10 +203,11 @@ ul {
 
 /* Footer */
 .footer {
-  background-color: var(--secondary-color);
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
   color: var(--white);
-  padding: 40px 0 20px;
+  padding: 60px 0 20px;
   margin-top: auto;
+  border-top: 4px solid var(--accent-color);
 }
 
 .footer-container {
@@ -832,6 +842,78 @@ ul {
   gap: 28px;
   margin-bottom: 40px;
 }
+
+/* Premium Card Utilities */
+.premium-card {
+  background: var(--white);
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  border: 1px solid #e2e8f0;
+}
+
+.premium-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  border-color: #cbd5e1;
+}
+
+.modern-form-group {
+  margin-bottom: 24px;
+}
+
+.modern-form-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--primary-color);
+  font-size: 0.95rem;
+}
+
+.modern-form-group input,
+.modern-form-group textarea,
+.modern-form-group select {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  background-color: #f8fafc;
+  color: var(--text-color);
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  font-family: inherit;
+}
+
+.modern-form-group input:focus,
+.modern-form-group textarea:focus,
+.modern-form-group select:focus {
+  outline: none;
+  border-color: var(--accent-color);
+  background-color: var(--white);
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+}
+
+.modern-submit-btn {
+  background-color: var(--accent-color);
+  color: var(--white);
+  padding: 16px 32px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  width: 100%;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+}
+
+.modern-submit-btn:hover {
+  background-color: #2563eb;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(59, 130, 246, 0.4);
+}
+
 
 /* About page enhancements */
 .about-section {
