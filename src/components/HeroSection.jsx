@@ -1,14 +1,16 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import '../index.css';
 
-const HeroSection = ({ title, subtitle, ctaText = 'Explore Services', ctaLink = '/service' }) => {
+const HeroSection = ({ title, subtitle, ctaText }) => {
   return (
     <section className="hero">
-      <div className="container hero-content">
-        <h1>{title}</h1>
-        <p className="hero-sub">{subtitle}</p>
-        <Link to={ctaLink} className="cta-button" aria-label={ctaText}>{ctaText}</Link>
+      <div className="container" style={{ display: 'flex', justifyContent: 'center' }}>
+        <div className="glass-panel" style={{ padding: '60px 40px', maxWidth: '800px', width: '100%', textAlign: 'center' }}>
+          <h1 style={{ marginBottom: '20px', fontSize: '3.5rem', fontWeight: 800, letterSpacing: '-0.5px' }}>{title}</h1>
+          <p style={{ fontSize: '1.25rem', marginBottom: '35px', opacity: 0.9, lineHeight: 1.6 }}>{subtitle}</p>
+          <a href="/contact" className="cta-button">
+            {ctaText}
+          </a>
+        </div>
       </div>
     </section>
   );

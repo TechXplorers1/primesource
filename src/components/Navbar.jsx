@@ -19,8 +19,17 @@ const Navbar = () => {
           <NavLink to="/" className="navbar-item" onClick={() => setIsOpen(false)}>
             Home
           </NavLink>
+          <NavLink to="/capabilities" className="navbar-item" onClick={() => setIsOpen(false)}>
+            Capabilities
+          </NavLink>
+          <NavLink to="/gov-contracting" className="navbar-item" onClick={() => setIsOpen(false)}>
+            Gov Contracting
+          </NavLink>
           <NavLink to="/service" className="navbar-item" onClick={() => setIsOpen(false)}>
-            Service
+            Services
+          </NavLink>
+          <NavLink to="/careers" className="navbar-item" onClick={() => setIsOpen(false)}>
+            Careers
           </NavLink>
           <NavLink to="/about" className="navbar-item" onClick={() => setIsOpen(false)}>
             About Us
