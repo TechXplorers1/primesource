@@ -10,10 +10,7 @@ const Footer = () => {
                     <div className="footer-brand">
                         <h3>PrimeSource</h3>
                         <p>Trusted Technology Partner for Federal & Defense Agencies.</p>
-                        <div className="business-identifiers" style={{ marginTop: '15px' }}>
-                            <p><strong>CAGE Code:</strong> 10SN3</p>
-                            <p><strong>UEI:</strong> NBBFD5KEJHW6</p>
-                        </div>
+
                     </div>
 
                     <div className="footer-links">

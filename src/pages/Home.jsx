@@ -6,32 +6,32 @@ import ServicesGrid from '../components/ServicesGrid';
 const services = [
   {
     title: 'Cybersecurity', description: 'Protection for mission-critical systems and compliance (FISMA, FedRAMP).', icon: (
-      <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 1L3 5v6c0 5 3.8 9.8 9 11 5.2-1.2 9-6 9-11V5l-9-4z" stroke="var(--accent-color)" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" /></svg>
+      <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="var(--accent-color)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" /><path d="M9 12l2 2 4-4" /></svg>
     )
   },
   {
     title: 'Cloud Infrastructure', description: 'Secure cloud architectures for classified and unclassified workloads.', icon: (
-      <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 17.58A5 5 0 0018 7H7a4 4 0 00-1.5 7.78" stroke="var(--secondary-color)" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" /></svg>
+      <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="var(--secondary-color)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M17.5 19H9a7 7 0 116.71-9h1.79a4.5 4.5 0 110 9z" /><path d="M12 12v7" /><path d="M9 16l3 3 3-3" /></svg>
     )
   },
   {
     title: 'IT Consulting', description: 'Advisory services for modernization, strategy and program management.', icon: (
-      <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 15v4a1 1 0 01-1 1H4a1 1 0 01-1-1v-4" stroke="var(--secondary-color)" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" /><path d="M7 10l5-5 5 5" stroke="var(--secondary-color)" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" /></svg>
+      <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="var(--secondary-color)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" /><circle cx="9" cy="7" r="4" /><path d="M23 21v-2a4 4 0 00-3-3.87" /><path d="M16 3.13a4 4 0 010 7.75" /></svg>
     )
   },
   {
     title: 'Defense Systems Support', description: 'Lifecycle support for defense platforms and integration.', icon: (
-      <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="9" stroke="var(--secondary-color)" strokeWidth="1.2" /><path d="M8 12h8" stroke="var(--secondary-color)" strokeWidth="1.2" strokeLinecap="round" /></svg>
+      <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="var(--secondary-color)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10" /><circle cx="12" cy="12" r="6" /><circle cx="12" cy="12" r="2" /><path d="M12 2v2" /><path d="M12 20v2" /><path d="M2 12h2" /><path d="M20 12h2" /></svg>
     )
   },
   {
     title: 'Federal Contracting', description: 'Experienced proposal teams and federal procurement support.', icon: (
-      <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="3" width="18" height="18" rx="2" stroke="var(--secondary-color)" strokeWidth="1.2" /></svg>
+      <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="var(--secondary-color)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2" /><path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16" /></svg>
     )
   },
   {
     title: 'Software Development', description: 'Secure, maintainable software for mission-critical needs.', icon: (
-      <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 18l6-6-6-6" stroke="var(--accent-color)" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" /><path d="M8 6l-6 6 6 6" stroke="var(--accent-color)" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" /></svg>
+      <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="var(--accent-color)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><polyline points="16 18 22 12 16 6" /><polyline points="8 6 2 12 8 18" /></svg>
     )
   },
 ];
@@ -47,8 +47,6 @@ const Home = () => {
 
       <section className="company-data-banner" style={{ marginTop: '-40px', position: 'relative', zIndex: 10, padding: '0 20px' }}>
         <div className="container" style={{ background: 'var(--white)', borderRadius: '12px', boxShadow: '0 10px 30px rgba(0,0,0,0.08)', display: 'flex', justifyContent: 'space-around', flexWrap: 'wrap', gap: '20px', padding: '30px', borderTop: '4px solid var(--accent-color)' }}>
-          <div style={{ textAlign: 'center' }}><span style={{ color: 'var(--accent-color)', fontSize: '0.85rem', textTransform: 'uppercase', letterSpacing: '1px', fontWeight: 700, display: 'block', marginBottom: '5px' }}>CAGE Code</span> <strong style={{ fontSize: '1.2rem', color: 'var(--primary-color)' }}>10SN3</strong></div>
-          <div style={{ textAlign: 'center' }}><span style={{ color: 'var(--accent-color)', fontSize: '0.85rem', textTransform: 'uppercase', letterSpacing: '1px', fontWeight: 700, display: 'block', marginBottom: '5px' }}>UEI</span> <strong style={{ fontSize: '1.2rem', color: 'var(--primary-color)' }}>NBBFD5KEJHW6</strong></div>
           <div style={{ textAlign: 'center' }}><span style={{ color: 'var(--accent-color)', fontSize: '0.85rem', textTransform: 'uppercase', letterSpacing: '1px', fontWeight: 700, display: 'block', marginBottom: '5px' }}>SAM.gov</span> <strong style={{ fontSize: '1.2rem', color: 'var(--primary-color)' }}>Active Registration</strong></div>
           <div style={{ textAlign: 'center' }}><span style={{ color: 'var(--accent-color)', fontSize: '0.85rem', textTransform: 'uppercase', letterSpacing: '1px', fontWeight: 700, display: 'block', marginBottom: '5px' }}>Clearances</span> <strong style={{ fontSize: '1.2rem', color: 'var(--primary-color)' }}>TS/SCI Facility</strong></div>
         </div>
@@ -109,29 +107,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="testimonials-section container" style={{ padding: '80px 20px' }}>
-        <div style={{ textAlign: 'center', marginBottom: '50px' }}>
-          <span style={{ color: 'var(--accent-color)', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '1.5px', fontSize: '0.9rem' }}>Client Success</span>
-          <h2 style={{ fontSize: '2.5rem', color: 'var(--primary-color)', marginTop: '10px' }}>Past Performance Highlights</h2>
-        </div>
-        <div className="testimonials-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '30px' }}>
-          <div className="testimonial-card" style={{ background: 'var(--white)', padding: '40px', borderRadius: '12px', boxShadow: '0 4px 20px rgba(0,0,0,0.05)', position: 'relative' }}>
-            <div style={{ color: 'var(--accent-color)', opacity: 0.2, fontSize: '4rem', position: 'absolute', top: '10px', left: '20px', fontFamily: 'serif' }}>"</div>
-            <p className="quote" style={{ fontSize: '1.1rem', color: '#334155', fontStyle: 'italic', marginBottom: '20px', position: 'relative', zIndex: 1, lineHeight: 1.7 }}>PrimeSource modernized our critical infrastructure systems ensuring 99.99% uptime and zero security incidents.</p>
-            <p className="author" style={{ color: 'var(--primary-color)', fontWeight: 700, textTransform: 'uppercase', fontSize: '0.85rem', letterSpacing: '1px' }}>U.S. Army Base Operations</p>
-          </div>
-          <div className="testimonial-card" style={{ background: 'var(--white)', padding: '40px', borderRadius: '12px', boxShadow: '0 4px 20px rgba(0,0,0,0.05)', position: 'relative' }}>
-            <div style={{ color: 'var(--accent-color)', opacity: 0.2, fontSize: '4rem', position: 'absolute', top: '10px', left: '20px', fontFamily: 'serif' }}>"</div>
-            <p className="quote" style={{ fontSize: '1.1rem', color: '#334155', fontStyle: 'italic', marginBottom: '20px', position: 'relative', zIndex: 1, lineHeight: 1.7 }}>Their DevSecOps implementation accelerated deployment cycles by 40% while ensuring strict FISMA compliance.</p>
-            <p className="author" style={{ color: 'var(--primary-color)', fontWeight: 700, textTransform: 'uppercase', fontSize: '0.85rem', letterSpacing: '1px' }}>Federal Civilian Agency</p>
-          </div>
-          <div className="testimonial-card" style={{ background: 'var(--white)', padding: '40px', borderRadius: '12px', boxShadow: '0 4px 20px rgba(0,0,0,0.05)', position: 'relative' }}>
-            <div style={{ color: 'var(--accent-color)', opacity: 0.2, fontSize: '4rem', position: 'absolute', top: '10px', left: '20px', fontFamily: 'serif' }}>"</div>
-            <p className="quote" style={{ fontSize: '1.1rem', color: '#334155', fontStyle: 'italic', marginBottom: '20px', position: 'relative', zIndex: 1, lineHeight: 1.7 }}>Consistently delivers complex cybersecurity requirements under stringent budget and timeline constraints.</p>
-            <p className="author" style={{ color: 'var(--primary-color)', fontWeight: 700, textTransform: 'uppercase', fontSize: '0.85rem', letterSpacing: '1px' }}>Department of Defense</p>
-          </div>
-        </div>
-      </section>
+
 
       <section className="cta-section">
         <div className="container cta-inner">

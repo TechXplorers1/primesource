@@ -29,40 +29,12 @@ const Careers = () => {
                 </div>
 
                 <div className="premium-card" style={{ marginBottom: '50px', padding: '50px' }}>
-                    <h2 style={{ fontSize: '1.8rem', color: 'var(--primary-color)', borderBottom: '3px solid var(--accent-color)', paddingBottom: '15px', marginBottom: '25px', display: 'inline-block' }}>Current Opportunities</h2>
-                    <p style={{ fontSize: '1.1rem', color: '#475569', marginBottom: '30px' }}>We are continuously seeking cleared talent holding Secret, Top Secret, and TS/SCI clearances.</p>
 
-                    <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
-                        <div style={{ padding: '30px', border: '1px solid #e2e8f0', borderRadius: '12px', background: 'var(--white)', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '20px', transition: 'box-shadow 0.3s' }} className="job-card">
-                            <div>
-                                <h3 style={{ margin: '0 0 10px 0', color: 'var(--primary-color)', fontSize: '1.4rem' }}>Senior Cloud Architect (AWS GovCloud)</h3>
-                                <div style={{ display: 'flex', gap: '20px', color: '#64748b', fontSize: '0.95rem' }}>
-                                    <span><strong style={{ color: '#334155' }}>Location:</strong> Laurel, MD (Hybrid)</span>
-                                    <span><strong style={{ color: 'var(--accent-color)' }}>Clearance:</strong> TS/SCI Required</span>
-                                </div>
-                            </div>
-                            <a href="#apply" className="cta-button" style={{ padding: '10px 24px', fontSize: '0.95rem' }}>Apply Now</a>
-                        </div>
-                        <div style={{ padding: '30px', border: '1px solid #e2e8f0', borderRadius: '12px', background: 'var(--white)', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '20px', transition: 'box-shadow 0.3s' }} className="job-card">
-                            <div>
-                                <h3 style={{ margin: '0 0 10px 0', color: 'var(--primary-color)', fontSize: '1.4rem' }}>Cybersecurity Analyst (RMF)</h3>
-                                <div style={{ display: 'flex', gap: '20px', color: '#64748b', fontSize: '0.95rem' }}>
-                                    <span><strong style={{ color: '#334155' }}>Location:</strong> Washington D.C.</span>
-                                    <span><strong style={{ color: 'var(--accent-color)' }}>Clearance:</strong> Secret Required</span>
-                                </div>
-                            </div>
-                            <a href="#apply" className="cta-button" style={{ padding: '10px 24px', fontSize: '0.95rem' }}>Apply Now</a>
-                        </div>
-                        <div style={{ padding: '30px', border: '1px solid #e2e8f0', borderRadius: '12px', background: 'var(--white)', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '20px', transition: 'box-shadow 0.3s' }} className="job-card">
-                            <div>
-                                <h3 style={{ margin: '0 0 10px 0', color: 'var(--primary-color)', fontSize: '1.4rem' }}>Full Stack Engineer (React/Node)</h3>
-                                <div style={{ display: 'flex', gap: '20px', color: '#64748b', fontSize: '0.95rem' }}>
-                                    <span><strong style={{ color: '#334155' }}>Location:</strong> Remote (US Citizens Only)</span>
-                                    <span><strong style={{ color: 'var(--accent-color)' }}>Clearance:</strong> Public Trust Eligible</span>
-                                </div>
-                            </div>
-                            <a href="#apply" className="cta-button" style={{ padding: '10px 24px', fontSize: '0.95rem' }}>Apply Now</a>
-                        </div>
+
+                    <div style={{ background: '#f0f4f8', padding: '40px', borderRadius: '8px', textAlign: 'center', marginTop: '40px' }}>
+                        <h3 style={{ fontSize: '1.5rem', color: '#1e293b', marginBottom: '15px', fontWeight: 600 }}>Interested in Joining PrimeSource?</h3>
+                        <p style={{ color: '#64748b', fontSize: '1.1rem', marginBottom: '25px' }}>Send your resume and a brief introduction to our recruitment team.</p>
+                        <a href="mailto:careers@primesource.com" className="cta-button" style={{ display: 'inline-block', padding: '12px 30px', fontSize: '1rem', borderRadius: '6px' }}>careers@primesource.com</a>
                     </div>
                 </div>
 

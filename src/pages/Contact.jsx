@@ -22,10 +22,7 @@ const Contact = () => {
                         <h2 style={{ fontSize: '2rem', marginBottom: '20px', color: 'var(--white)' }}>Federal & Defense Inquiries</h2>
                         <p className="info-desc" style={{ color: 'rgba(255,255,255,0.8)', lineHeight: 1.7, marginBottom: '40px' }}>For proposals, teaming agreements, and classified engagements, please indicate your clearance requirements directly in your message or contact our secure line.</p>
 
-                        <div className="business-identifiers" style={{ marginBottom: '40px', padding: '20px', background: 'rgba(255,255,255,0.1)', borderRadius: '8px', borderLeft: '4px solid var(--accent-color)' }}>
-                            <p style={{ marginBottom: '10px' }}><strong style={{ color: 'var(--accent-color)', marginRight: '10px' }}>CAGE Code:</strong> 10SN3</p>
-                            <p><strong style={{ color: 'var(--accent-color)', marginRight: '10px' }}>UEI:</strong> NBBFD5KEJHW6</p>
-                        </div>
+
 
                         <div className="info-items" style={{ display: 'flex', flexDirection: 'column', gap: '30px' }}>
                             <div className="info-item" style={{ display: 'flex', gap: '20px', alignItems: 'flex-start' }}>

@@ -19,10 +19,22 @@
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
   line-height: 1.6;
   color: var(--text-color);
   background-color: var(--bg-color);
+  font-size: 15px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: -0.02em;
 }
 
 a {
@@ -127,8 +139,8 @@ ul {
   background-position: center;
   background-repeat: no-repeat;
   color: var(--white);
-  padding: 100px 20px;
-  min-height: 80vh;
+  padding: 80px 20px;
+  min-height: 55vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -845,12 +857,12 @@ ul {
 
 /* Premium Card Utilities */
 .premium-card {
-  background: var(--white);
-  border-radius: 12px;
+  background: var(bg-color);
+  /* border-radius: 12px; */
   padding: 40px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  /* box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); */
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-  border: 1px solid #e2e8f0;
+  /* border: 1px solid #e2e8f0; */
 }
 
 .premium-card:hover {
@@ -960,7 +972,7 @@ ul {
 .certifications-section {
   margin: 40px 0;
   padding: 30px;
-  background: var(--white);
+  background: var(--bg-color);
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
 }
