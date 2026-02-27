@@ -17,7 +17,7 @@ const About = () => {
     <div className="page-container">
       <div className="container">
         <h1 className="page-title">About PrimeSource</h1>
-        <p>Delivering secure, mission-critical technology solutions to the U.S. Government and defense sectors.</p>
+        <p style={{ textAlign: 'center' }}>Delivering secure, mission-critical technology solutions to the U.S. Government and defense sectors.</p>
 
         <section className="company-section" style={{ padding: '60px 0' }}>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '30px', marginBottom: '50px' }}>
@@ -59,9 +59,9 @@ const About = () => {
             <h2 style={{ fontSize: '2rem', color: 'var(--primary-color)', marginBottom: '20px' }}>Location & Proximity</h2>
             <p style={{ fontSize: '1.1rem', color: '#475569', lineHeight: 1.8 }}>Strategically located in the Maryland/DC/Fort Meade corridor, PrimeSource is perfectly positioned to rapidly support intelligence agencies, DoD commands, and federal civilian departments across the National Capital Region.</p>
           </div>
-          <div style={{ flex: '0 0 300px', background: '#e0e7ff', padding: '30px', borderRadius: '12px', borderLeft: '4px solid var(--accent-color)' }}>
+          <div style={{ flex: '0 1 300px', maxWidth: '100%', boxSizing: 'border-box', background: '#e0e7ff', padding: '30px', borderRadius: '12px', borderLeft: '4px solid var(--accent-color)' }}>
             <h3 style={{ color: 'var(--primary-color)', marginBottom: '15px' }}>Headquarters</h3>
-            <p style={{ color: '#334155', lineHeight: 1.6 }}>
+            <p style={{ color: '#334155', lineHeight: 1.6, wordBreak: 'break-word' }}>
               309 Benthic Ln<br />
               Laurel, MD 20724<br />
               United States

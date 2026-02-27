@@ -17,8 +17,8 @@ const Contact = () => {
             </div>
 
             <div className="container contact-main-content" style={{ marginTop: '-60px', position: 'relative', zIndex: 10 }}>
-                <div className="contact-grid" style={{ display: 'grid', gridTemplateColumns: 'minmax(300px, 400px) 1fr', background: 'var(--white)', borderRadius: '12px', overflow: 'hidden', boxShadow: '0 20px 40px rgba(0,0,0,0.1)' }}>
-                    <div className="contact-info-panel" style={{ background: 'linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%)', color: 'var(--white)', padding: '50px 40px' }}>
+                <div className="contact-grid">
+                    <div className="contact-info-panel">
                         <h2 style={{ fontSize: '2rem', marginBottom: '20px', color: 'var(--white)' }}>Federal & Defense Inquiries</h2>
                         <p className="info-desc" style={{ color: 'rgba(255,255,255,0.8)', lineHeight: 1.7, marginBottom: '40px' }}>For proposals, teaming agreements, and classified engagements, please indicate your clearance requirements directly in your message or contact our secure line.</p>
 
@@ -41,7 +41,7 @@ const Contact = () => {
                                 </div>
                                 <div className="info-text">
                                     <h4 style={{ color: 'var(--white)', marginBottom: '5px', fontSize: '1.1rem' }}>Email Us</h4>
-                                    <p style={{ color: 'rgba(255,255,255,0.7)', lineHeight: 1.6 }}>gov-procurement@primesource.com</p>
+                                    <p style={{ color: 'rgba(255,255,255,0.7)', lineHeight: 1.6, wordBreak: 'break-all' }}>gov-procurement@primesource.com</p>
                                 </div>
                             </div>
 
@@ -57,7 +57,7 @@ const Contact = () => {
                         </div>
                     </div>
 
-                    <div className="contact-form-panel" style={{ padding: '50px 60px', background: 'var(--white)' }}>
+                    <div className="contact-form-panel">
                         <div className="form-card">
                             <h3 style={{ fontSize: '2rem', color: 'var(--primary-color)', marginBottom: '30px' }}>Send a Message</h3>
                             <form onSubmit={handleSubmit}>

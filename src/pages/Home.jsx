@@ -53,7 +53,7 @@ const Home = () => {
       </section>
 
       <section className="container about-overview" style={{ padding: '80px 20px' }}>
-        <div className="about-grid" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '60px', alignItems: 'center' }}>
+        <div className="about-grid">
           <div>
             <h2 style={{ fontSize: '2.5rem', color: 'var(--primary-color)', marginBottom: '20px', lineHeight: 1.2 }}>About PrimeSource</h2>
             <p style={{ fontSize: '1.1rem', color: '#475569', lineHeight: 1.8, marginBottom: '20px' }}>PrimeSource delivers secure, scalable, and mission-critical technology solutions focused on federal and defense customers. We prioritize security, compliance, and operational readiness to ensure mission success for our government partners.</p>

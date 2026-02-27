@@ -10,7 +10,7 @@ const Careers = () => {
                     <p style={{ maxWidth: '800px', margin: '0 auto', fontSize: '1.15rem', color: '#475569', lineHeight: 1.8 }}>Join a team of cleared professionals dedicated to advancing the mission of the U.S. Government through secure, innovative technology solutions.</p>
                 </div>
 
-                <div className="premium-card" style={{ marginBottom: '50px', padding: '50px' }}>
+                <div className="premium-card responsive-padded-card">
                     <h2 style={{ fontSize: '1.8rem', color: 'var(--primary-color)', borderBottom: '3px solid var(--accent-color)', paddingBottom: '15px', marginBottom: '25px', display: 'inline-block' }}>Why PrimeSource?</h2>
                     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '30px', marginTop: '20px' }}>
                         <div style={{ padding: '30px', background: '#f8fafc', border: '1px solid #e2e8f0', borderRadius: '8px', borderTop: '4px solid var(--primary-color)' }}>
@@ -28,13 +28,13 @@ const Careers = () => {
                     </div>
                 </div>
 
-                <div className="premium-card" style={{ marginBottom: '50px', padding: '50px' }}>
+                <div className="premium-card responsive-padded-card">
 
 
                     <div style={{ background: '#f0f4f8', padding: '40px', borderRadius: '8px', textAlign: 'center', marginTop: '40px' }}>
                         <h3 style={{ fontSize: '1.5rem', color: '#1e293b', marginBottom: '15px', fontWeight: 600 }}>Interested in Joining PrimeSource?</h3>
                         <p style={{ color: '#64748b', fontSize: '1.1rem', marginBottom: '25px' }}>Send your resume and a brief introduction to our recruitment team.</p>
-                        <a href="mailto:careers@primesource.com" className="cta-button" style={{ display: 'inline-block', padding: '12px 30px', fontSize: '1rem', borderRadius: '6px' }}>careers@primesource.com</a>
+                        <a href="mailto:careers@primesource.com" className="cta-button" style={{ display: 'inline-block', padding: '12px 30px', fontSize: '1rem', borderRadius: '6px', wordBreak: 'break-all' }}>careers@primesource.com</a>
                     </div>
                 </div>
 

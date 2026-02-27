@@ -121,10 +121,10 @@ const Service = () => {
         <h1 className="page-title">Services</h1>
         <p style={{ textAlign: 'center', marginBottom: '40px' }}>Comprehensive offerings tailored for federal and defense missions</p>
 
-        <div style={{ position: 'relative', maxWidth: '900px', margin: '0 auto', padding: '20px 0' }}>
+        <div className="services-slider-container">
           <button
             onClick={prevSlide}
-            style={{ position: 'absolute', left: '-40px', top: '50%', transform: 'translateY(-50%)', background: 'transparent', border: 'none', fontSize: '3rem', cursor: 'pointer', color: 'var(--primary-color)' }}>
+            className="slider-btn slider-btn-left">
             &#10094;
           </button>
 
@@ -139,7 +139,7 @@ const Service = () => {
 
           <button
             onClick={nextSlide}
-            style={{ position: 'absolute', right: '-40px', top: '50%', transform: 'translateY(-50%)', background: 'transparent', border: 'none', fontSize: '3rem', cursor: 'pointer', color: 'var(--primary-color)' }}>
+            className="slider-btn slider-btn-right">
             &#10095;
           </button>
 

@@ -10,7 +10,7 @@ const GovContracting = () => {
                     <p style={{ maxWidth: '800px', margin: '0 auto', fontSize: '1.15rem', color: '#475569', lineHeight: 1.8 }}>PrimeSource is committed to providing exceptional service and value to the U.S. Federal Government. We maintain strict compliance with all federal contracting regulations and possess the experience to execute complex delivery orders.</p>
                 </div>
 
-                <div className="premium-card" style={{ marginBottom: '50px', padding: '50px' }}>
+                <div className="premium-card responsive-padded-card">
                     <h2 style={{ fontSize: '1.8rem', color: 'var(--primary-color)', borderBottom: '3px solid var(--accent-color)', paddingBottom: '15px', marginBottom: '25px', display: 'inline-block' }}>Our Experience</h2>
                     <p style={{ fontSize: '1.1rem', color: '#475569', marginBottom: '30px' }}>We have successfully delivered critical technology and professional services across multiple branches of government:</p>
                     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '30px' }}>
@@ -33,7 +33,7 @@ const GovContracting = () => {
                     </div>
                 </div>
 
-                <div className="premium-card" style={{ background: 'linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%)', color: 'white', padding: '50px', border: 'none' }}>
+                <div className="premium-card responsive-padded-card-dark">
                     <h2 style={{ fontSize: '1.8rem', color: 'var(--white)', borderBottom: '3px solid var(--accent-color)', paddingBottom: '15px', marginBottom: '25px', display: 'inline-block' }}>Compliance & Registration</h2>
                     <p style={{ fontSize: '1.1rem', color: 'rgba(255,255,255,0.8)', marginBottom: '30px' }}>We operate with complete transparency and adhere to all regulatory requirements mandated for federal contractors.</p>
                     <ul style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '20px', listStyleType: 'none', paddingLeft: 0 }}>

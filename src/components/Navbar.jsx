@@ -46,13 +46,7 @@ const Navbar = () => {
           <NavLink to="/contact" className="navbar-item" onClick={() => setIsOpen(false)}>
             Contact Us
           </NavLink>
-          <Link to="/login" className="login-btn mobile-only" onClick={() => setIsOpen(false)}>
-            Login
-          </Link>
         </div>
-        <Link to="/login" className="login-btn desktop-only">
-          Login
-        </Link>
         <button className="navbar-toggle" onClick={toggleMenu} aria-label="Toggle navigation" aria-expanded={isOpen}>
           <span className="bar"></span>
           <span className="bar"></span>

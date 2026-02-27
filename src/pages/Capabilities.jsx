@@ -85,7 +85,7 @@ const Capabilities = () => {
                 </div>
 
                 {/* Right Column */}
-                <div style={{ width: '320px', flexShrink: 0, borderRadius: '8px', overflow: 'hidden', backgroundColor: 'var(--primary-color)', color: '#f8fafc', boxShadow: '0 10px 25px rgba(0,0,0,0.1)' }}>
+                <div style={{ width: '100%', maxWidth: '320px', flexShrink: 0, borderRadius: '8px', overflow: 'hidden', backgroundColor: 'var(--primary-color)', color: '#f8fafc', boxShadow: '0 10px 25px rgba(0,0,0,0.1)' }}>
                     <div style={{ backgroundColor: 'var(--accent-color)', padding: '16px 24px' }}>
                         <h3 style={{ margin: 0, fontSize: '1.05rem', fontWeight: 700, color: '#ffffff', letterSpacing: '0.2px' }}>Company Data</h3>
                     </div>
